@@ -1,27 +1,26 @@
 /*----------------header----------------------*/
-#vr
-{
+#vr {
     border: 4px solid #bababa;
     margin: 0;
 }
-.logo{
+.logo {
     padding-top: 20px;
     padding-bottom: 25px;
 }
-.logo img{
+.logo img {
     max-width: 80px;
 }
-.htext{
+.htext {
     padding-top: 20px;
     padding-bottom: 25px;
 }
-.htext h1{
+.htext h1 {
     font-size: 3em;
     font-weight: 200;
     margin-bottom: 0;
     }
 @media screen and (max-width: 360px){
-    .htext, .logo{
+    .htext, .logo {
     text-align: center;
   }
   .htext h1 {
@@ -36,7 +35,7 @@
   }    
 }
 
-@media screen and (min-width: 361px) and (max-width: 768px){
+@media screen and (min-width: 361px) and (max-width: 768px) {
     .htext {
     text-align: right;
   }
@@ -66,7 +65,7 @@ main img {
 
 
 /*------------------Footer---------------------*/
-footer h2{
+footer h2 {
     text-align:left;
     font-size: 2em;
     font-weight: 400;
@@ -80,9 +79,11 @@ article img {
   width: 100%;
 }
 article h3 {
+    
     padding-top: 10px;
     text-align:center;
 }
 article p {
+    word-break: break-word;
     text-align:center;
 }
